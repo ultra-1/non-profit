@@ -1,0 +1,27 @@
+.menu-container {
+    position: relative;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+  }
+  
+  .menu-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #f0f0f0;
+    width: 200px; /* Adjust width as needed */
+    height: 100%; /* Adjust height as needed */
+    padding: 20px;
+  }
+  
+  .menu-bar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-bar li {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
